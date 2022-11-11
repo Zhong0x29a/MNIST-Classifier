@@ -2,6 +2,12 @@
 
 ## Prepare Dataset
 
++ `Make Folder`
+
+    ```sh
+    mkdir ./dataset/
+    ```
+
 + `Download`
     
     ```sh
