@@ -1,5 +1,14 @@
 # MNIST-Classifier
 
+## Prerequisites
+
+### System requirements
+- Python 3
+- CPU or NVIDIA GPU + CUDA
+
+### Dependencies
+- ``torch >= 1.0.0``
+
 ## Prepare Dataset
 
 + `Make Folder`
