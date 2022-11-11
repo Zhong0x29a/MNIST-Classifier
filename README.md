@@ -1,5 +1,26 @@
 # MNIST-Classifier
 
+## Prepare Dataset
+
++ `Download`
+    
+    ```sh
+    wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz -O ./dataset/train-images-idx3-ubyte.gz
+    wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz -O ./dataset/train-labels-idx1-ubyte.gz
+    wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz -O ./dataset/t10k-images-idx3-ubyte.gz
+    wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz -O ./dataset/t10k-labels-idx1-ubyte.gz
+    ```
+    
++ `Unpack`
+    ```sh
+    gzip -d ./dataset/train-images-idx3-ubyte.gz
+    gzip -d ./dataset/train-labels-idx1-ubyte.gz
+    gzip -d ./dataset/t10k-images-idx3-ubyte.gz
+    gzip -d ./dataset/t10k-labels-idx1-ubyte.gz
+    ```
+
+## Usage
+
 + `1.Train` Use:
 
     ```sh
