@@ -58,5 +58,5 @@
     python main.py recognize
     ```
 
-  to recognize your .bmp images in the path (./unlabeled/), the results will be been both in console and the path (./labeled) (as the prefix of the file names).
+  to recognize your `.bmp` images in the path (`./unlabeled/`) (the images must be `28*28` in size, and with `256 channels in black&white`), the results will be been both in console and the path (`./labeled`) (as the prefix of the file names).
   
